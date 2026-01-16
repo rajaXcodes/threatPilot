@@ -9,7 +9,7 @@ if (process.env.NODE_ENV != "production") {
 const WORKFLOW_URL = process.env.WORKFLOW_URL;
 const API_KEY = process.env.API_KEY;
 
-cron.schedule("*/1 * * * *", async () => {
+cron.schedule("*/10 * * * *", async () => {
     try {
         const executionId = `cmd - ${uuid()}`;
         const endTime = new Date();
