@@ -97,15 +97,14 @@ flowchart LR
 * **JavaScript (Node.js)** — Backend and agent orchestration
 * **Express** — REST endpoints for agent communication
 * **Grafana Loki** — Log aggregation and querying
-* **Webhooks** — Slack, Jira, email notifications
+* **Webhooks** — Slack, Jira, email notifications, Cloudflare
 
-### Custom Agents
+### OnDemand Stack
 
 * Commander Agent — Log analysis & reasoning
 * Immediator Agent — Normalization & orchestration
 * Remediation Agents (Domain-specific) — Executes actions per domain
-* Document Agent — Generates daily actionable report using Media API
-* Slack Alert Agent — Sends alerts to SOC
+* Document Agent — Generates daily actionable reports enriched with detailed documentation, visual presentations, and media fetched via the Media API.
 * Jira Agent — Creates tickets for human intervention
 * Beautified Incident Reporter (Email / Slack / Jira)
 
@@ -195,7 +194,7 @@ flowchart LR
 * Jira tickets created for human intervention where necessary
 * Enables SOC teams to **cross-verify automated actions**
 * Supports **trend analysis** for attack patterns
-
+* Integrated a **Navigator** (ChatBot) that allows querying by SOC for clarifications, action mappings, and record lookups.
 ---
 
 ## 🏆 Why ThreatPilot
