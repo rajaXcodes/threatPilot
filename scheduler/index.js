@@ -30,10 +30,7 @@ cron.schedule("*/10 * * * *", async () => {
                         - Machine-readable JSON findings output
                         - Professional security analyst report (300-500 words)
 
-                        Focus on identifying brute force attacks, credential stuffing, DDoS patterns, service crashes, and any other security-relevant events.
-                        Start time: ${startTime.toISOString()}
-                        End time: ${endTime.toISOString()}
-                        `.trim();
+                        Focus on identifying brute force attacks, credential stuffing, DDoS patterns, service crashes, and any other security-relevant events.`;
 
         const response = await fetch(WORKFLOW_URL, {
             method: "POST",
