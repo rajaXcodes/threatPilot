@@ -110,6 +110,23 @@ flowchart LR
 
 ---
 
+## Screenshots
+
+<img width="1468" height="871" alt="image" src="https://github.com/user-attachments/assets/0eb6aee8-3e55-48a2-8f5a-11f7c7ccf6de" />
+
+<img width="1470" height="874" alt="image" src="https://github.com/user-attachments/assets/acde2204-a008-41aa-87e8-f1bb376334f2" />
+
+<img width="1470" height="720" alt="image" src="https://github.com/user-attachments/assets/fb15269b-0197-406b-8940-b5a15e07b054" />
+
+<img width="1465" height="771" alt="image" src="https://github.com/user-attachments/assets/7abb50c3-8033-448a-9bff-eb78217114c4" />
+
+<img width="1465" height="729" alt="image" src="https://github.com/user-attachments/assets/0582c31b-0d8d-4357-bb73-a32b480bb9e5" />
+
+<img width="1468" height="869" alt="image" src="https://github.com/user-attachments/assets/21e75bcd-545d-4826-b5e4-fcaef3d60298" />
+
+
+---
+
 ## 🔁 Event-Driven Execution Model
 
 * AI runs **only on alerts** (event-driven)
