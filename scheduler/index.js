@@ -17,7 +17,20 @@ cron.schedule("*/1 * * * *", async () => {
 
         console.log(`${startTime} - ${endTime} :: ${executionId} `)
 
-        const prompt = `Process logs from the last 10 minutes.
+        const prompt = `Analyze the security logs from the past 10 minutes across all domains (Identity, HTTP, Infrastructure). 
+
+                        Use the Loki MCP API to:
+                        1. Discover all available services and log labels
+                        2. Query ALL logs from the last 10 minutes
+                        3. Detect any security incidents or anomalies
+                        4. Apply SOC detection patterns and thresholds
+                        5. Generate a comprehensive security analysis
+
+                        Provide both:
+                        - Machine-readable JSON findings output
+                        - Professional security analyst report (300-500 words)
+
+                        Focus on identifying brute force attacks, credential stuffing, DDoS patterns, service crashes, and any other security-relevant events.
                         Start time: ${startTime.toISOString()}
                         End time: ${endTime.toISOString()}
                         `.trim();
